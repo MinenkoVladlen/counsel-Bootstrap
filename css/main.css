@@ -1,0 +1,109 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-image: url("../img/Layer 1.png");
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.header_nav a {
+    color: white;
+}
+
+.language {
+    position: absolute;
+}
+
+.language img:nth-child(2) {
+    transform: rotateX(180deg);
+}
+
+.header_main {
+    padding: 210px 0;
+}
+
+.header_main h1 {
+    font-size: 44px;
+    position: absolute;
+    top: 21%;
+    right: 66%;
+    color: white;
+    font-weight: bold;
+}
+
+.header_main a {
+    color: #fde428;
+    font-size: 21px;
+    position: absolute;
+    top: 71%;
+    left: -19%;
+    border-bottom: 2px solid #fde428;
+    z-index: 999;
+}
+
+.header_main img {
+    position: relative;
+}
+
+.take_tour_left {
+    padding: 100px 0;
+}
+
+.take_tour {
+    position: relative;
+    overflow: hidden;
+}
+
+.take_tour h2 {
+    font-size: 31px;
+    line-height: 31px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #002e5b;
+}
+
+.take_tour h3 {
+    font-size: 21px;
+    line-height: 25px;
+    padding: 28px 0 20px;
+    color: #666666;
+}
+
+.take_tour p {
+    font-size: 16px;
+    line-height: 25px;
+    padding-bottom: 30px;
+    color: #333333;
+}
+
+.take_tour a {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+    color: #002e5b;
+    border-bottom: 2px solid #002e5b;
+}
+
+.img_something {
+    z-index: 999;
+}
+
+.take_tour_yellow {
+    position: absolute;
+    width: 270px;
+    height: 1000px;
+    left: 49%;
+    background-color: #fde52c;
+}

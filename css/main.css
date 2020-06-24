@@ -1,5 +1,25 @@
-body {
-    font-family: 'Montserrat', sans-serif;
+h1 {
+    font-size: 44px;
+    position: absolute;
+    top: 21%;
+    right: 66%;
+    color: white;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 31px;
+    line-height: 1;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #002e5b;
+}
+
+h3 {
+    font-size: 21px;
+    line-height: 1;
+    padding: 28px 0 20px;
+    color: #666666;
 }
 
 header {
@@ -56,38 +76,24 @@ a:hover {
     position: relative;
 }
 
-.take_tour_left {
+.text_block {
     padding: 100px 0;
 }
 
-.take_tour {
+.info_block {
     position: relative;
     overflow: hidden;
 }
 
-.take_tour h2 {
-    font-size: 31px;
-    line-height: 31px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #002e5b;
-}
-
-.take_tour h3 {
-    font-size: 21px;
-    line-height: 25px;
-    padding: 28px 0 20px;
-    color: #666666;
-}
-
-.take_tour p {
+.info_block p, .constructing p {
     font-size: 16px;
     line-height: 25px;
     padding-bottom: 30px;
     color: #333333;
+    line-height: 1;
 }
 
-.take_tour a {
+.info_block a, .constructing a  {
     font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
@@ -106,4 +112,148 @@ a:hover {
     height: 1000px;
     left: 49%;
     background-color: #fde52c;
+}
+
+.constructing {
+    background-color: #f4f4f4;
+    padding: 100px 0;
+}
+
+.constructing img {
+    width: 94%;
+}
+
+.looking {
+    background-color: #002e5b;
+    padding: 22px 0;
+}
+
+.looking h2 {
+    font-size: 21px;
+    font-family: 'Montserrat', regular;
+    color: #f4f4f4;
+    margin: auto;
+}
+
+.looking_button {
+    width: 80%;
+    background-color: #fde428;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.looking_button p {
+    font-weight: bold;
+    font-size: 16px;
+    color: #002e5b;
+    margin: 0;
+}
+
+.rows_turnaround {
+    padding-top: 20px;
+}
+
+.rows_turnaround h3 {
+    color: #002e5b;
+    font-weight: bold;
+}
+
+.rows_turnaround p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.popular {
+    padding: 100px 0;
+}
+
+.statistic {
+    background-color: #002e5b;
+    padding: 120px 0;
+}
+
+.statistic h1 {
+    font-size: 48px;
+    color: #f4f4f4;
+    position: unset;
+}
+
+.statistic h4 {
+    font-size: 14px;
+    color: #f4f4f4;
+}
+
+#play {
+    border-bottom: none;
+    z-index: 999;
+}
+
+.quote {
+    background-color: #062849;
+    color: #f4f4f4;
+    padding: 100px 0;
+}
+
+.quote h1 {
+    position: unset;
+}
+
+.quote h4 {
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 60px;
+}
+
+.quote p {
+    font-size: 20px;
+}
+
+.contact {
+    padding: 100px 0;
+}
+
+.contact p {
+    margin: 0;
+    padding-left: 10px;
+}
+
+.contact h3 {
+    padding-bottom: 50px;
+}
+
+.contact_info {
+    padding: 40px 40px;
+    color: #002e5b;
+}
+
+.contact_string {
+    display: flex;
+    align-items: baseline;
+    padding-top: 16px;
+    font-size: 16px;
+}
+
+.contact_shadow {
+    -webkit-box-shadow: 0px 0px 24px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 24px -13px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 24px -13px rgba(0,0,0,0.75);
+}
+
+footer {
+    background-color: #002e5b;
+    color: #f4f4f4;
+    padding: 30px 0;
+}
+
+footer a {
+    color: #f4f4f4;
+}
+
+footer p:after {
+    content: 'Symu.com';
+    color: #fde52c;
+}
+
+footer i {
+    padding: 0 10px;
 }

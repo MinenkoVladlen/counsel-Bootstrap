@@ -35,10 +35,11 @@ header {
 
 a:hover {
     text-decoration: none;
+    color: #666666;
 }
 
-.header_nav a {
-    color: white;
+.navbar-dark .navbar-nav .nav-link {
+    color: #f4f4f4;
 }
 
 .language {
@@ -50,7 +51,7 @@ a:hover {
 }
 
 .header_main {
-    padding: 205px 0;
+    padding: 150px 0;
 }
 
 .header_main h1 {

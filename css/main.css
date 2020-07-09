@@ -78,7 +78,7 @@ a:hover {
 }
 
 .text_block {
-    padding: 100px 0;
+    padding: 100px 20px;
 }
 
 .info_block {
@@ -117,7 +117,7 @@ a:hover {
 
 .constructing {
     background-color: #f4f4f4;
-    padding: 100px 0;
+    padding: 100px 20px;
 }
 
 .constructing img {
@@ -126,7 +126,7 @@ a:hover {
 
 .looking {
     background-color: #002e5b;
-    padding: 22px 0;
+    padding: 22px 20px;
 }
 
 .looking h2 {
@@ -165,12 +165,12 @@ a:hover {
 }
 
 .popular {
-    padding: 100px 0;
+    padding: 100px 20px;
 }
 
 .statistic {
     background-color: #002e5b;
-    padding: 120px 0;
+    padding: 120px 20px;
 }
 
 .statistic h1 {
@@ -192,7 +192,7 @@ a:hover {
 .quote {
     background-color: #062849;
     color: #f4f4f4;
-    padding: 100px 0;
+    padding: 100px 20px;
 }
 
 .quote h1 {
@@ -210,7 +210,7 @@ a:hover {
 }
 
 .contact {
-    padding: 100px 0;
+    padding: 100px 20px;
 }
 
 .contact p {
@@ -243,7 +243,7 @@ a:hover {
 footer {
     background-color: #002e5b;
     color: #f4f4f4;
-    padding: 30px 0;
+    padding: 30px 20px;
 }
 
 footer a {
@@ -261,9 +261,33 @@ footer i {
 @media (max-width: 992px) {
     .header_main {
         padding: 150px 0;
+        overflow: hidden;
     }
     .take_tour_yellow {
         display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .header_main__ring {
+        width: 50%;
+    }
+
+    .header_main h1 {
+        right: 0;
+    }
+
+    .header_main a {
+        left: 0;
+    }
+
+    section {
+        padding: 0 20px;
+    }
+
+    .statistic_adap {
+        display: flex;
+        flex-direction: column;
     }
 }
 
